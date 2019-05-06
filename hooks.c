@@ -28,6 +28,7 @@
 #include <avr/interrupt.h>
 #include <avr/sleep.h>
 
+#define F_CPU 16000000UL
 #include <util/delay.h>
 
 /* FreeRTOS includes. */
